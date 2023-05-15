@@ -1,0 +1,4 @@
+include ':TimetableView'
+include ':app'
+rootProject.name = "CUG课程表"
+include ':app:mylibrary'

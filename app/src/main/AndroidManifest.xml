@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hhuclassschedule">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.example.cugclassschedule.util.ContextApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/lago"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_round_2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CUG课程表"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.example.cugclassschedule.AboutActivity" />
+        <activity android:name="com.example.cugclassschedule.AddCourseActivity" />
+        <activity android:name="com.example.cugclassschedule.ParseHtmlActivity" />
+        <activity android:name="com.example.cugclassschedule.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.cugclassschedule.MainActivity" />
+        <activity android:name="com.example.cugclassschedule.NotificationConfigActivity"/>
+        <receiver
+            android:name="com.example.cugclassschedule.receiver.AlarmReceiver"
+            />
+    </application>
+
+</manifest>

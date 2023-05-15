@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/import_class"
+        android:title="导入课表" />
+    <item
+        android:id="@+id/select_date"
+        android:title="设置开学时间" />
+    <item
+        android:id="@+id/hide_weekends"
+        android:title="隐藏周末" />
+    <item
+        android:id="@+id/show_weekends"
+        android:title="显示周末" />
+    <item
+        android:id="@+id/hide_not_tish_week"
+        android:title="隐藏非本周课程" />
+    <item
+        android:id="@+id/show_not_this_week"
+        android:title="显示非本周课程" />
+    <item
+        android:id="@+id/show_time"
+        android:title="显示节次时间" />
+    <item
+        android:id="@+id/hide_time"
+        android:title="隐藏节次时间" />
+    <item
+        android:id="@+id/notification_activity"
+        android:title="通知设置" />
+    <item
+        android:id="@+id/about_activity"
+        android:title="关于" />
+
+</menu>
